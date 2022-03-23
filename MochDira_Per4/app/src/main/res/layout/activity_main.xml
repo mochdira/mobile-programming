@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/materi_alert_toast"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        />
+
+    <GridLayout
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_view"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-4dp"
+        android:layout_marginEnd="0dp"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_margin="13dp"
+            android:background="@drawable/button_rounded"
+            android:drawableStart="@drawable/ic_alert"
+            android:padding="5dp"
+            android:text="@string/alert_1"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_margin="13dp"
+            android:background="@drawable/button_rounded"
+            android:drawableStart="@drawable/ic_alert"
+            android:padding="5dp"
+            android:text="@string/alert_2"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_margin="13dp"
+            android:background="@drawable/button_rounded"
+            android:drawableStart="@drawable/ic_alert"
+            android:padding="5dp"
+            android:text="@string/alert_3"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_margin="13dp"
+            android:background="@drawable/button_rounded"
+            android:drawableStart="@drawable/ic_alert"
+            android:padding="5dp"
+            android:text="@string/toast"
+            android:textColor="#fff"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/durasiSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="15sp"
+            android:text="@string/durasi"
+            android:textColor="#000"
+            android:textSize="30sp" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="150dp"
+            android:layout_height="70sp" />
+    </GridLayout>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/tutup"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:drawableStart="@drawable/ic_alert"
+        android:background="@drawable/button_rounded"
+        android:layout_margin="13dp"
+        android:padding="5dp"
+        android:layout_below="@+id/grid"
+        />
+
+</RelativeLayout>

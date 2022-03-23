@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MochDira_Per4</string>
+    <string name="materi_alert_toast" >Materi Alert Toast</string>
+    <string name="alert_1" >Alert 1</string>
+    <string name="alert_2" >Alert 2</string>
+    <string name="alert_3" >Alert 3</string>
+    <string name="toast">Toast</string>
+    <string name="durasi">Durasi</string>
+    <string name="tutup">Tutup</string>
+</resources>
