@@ -1,0 +1,2 @@
+rootProject.name='MochDiraPer5'
+include ':app'
